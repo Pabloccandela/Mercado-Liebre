@@ -208,6 +208,10 @@ main{
   width: 100%;
 }
 
+.items-details{
+  position: relative;
+}
+
 .description-products{
   padding:15px 6px 0 15px;
 
@@ -277,6 +281,21 @@ footer{
   font-size: 25px;
 }
 
+.truck-icon {
+  color: green;
+  border: green solid 1px;
+  border-radius: 50%;
+  padding: 7px 5px;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+  transition: all .6s;
+}
+
+.truck-icon:hover{
+  transform: rotate(-90deg)
+}
+
 
 @media (min-width: 481px) {
 
@@ -316,6 +335,8 @@ footer{
   }
 
 }
+
+
 
 
 @media (min-width:769px) {
