@@ -280,6 +280,9 @@ footer{
   color: var(--light-blue);
   font-size: 25px;
 }
+.footer-item i:hover{
+  color: var(--dark-blue);
+}
 
 .truck-icon {
   color: green;
