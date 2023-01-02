@@ -1,0 +1,26 @@
+{
+  "name": "practicaindividualdh",
+  "version": "1.0.0",
+  "description": "Practica de pagina web individual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pabloccandela/PracticaIndividualDH.git"
+  },
+  "author": "Pabloccandela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pabloccandela/PracticaIndividualDH/issues"
+  },
+  "homepage": "https://github.com/Pabloccandela/PracticaIndividualDH#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
