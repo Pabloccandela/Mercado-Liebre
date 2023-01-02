@@ -1,7 +1,7 @@
 {
-  "name": "practicaindividualdh",
+  "name": "mercado-liebre",
   "version": "1.0.0",
-  "description": "Practica de pagina web individual",
+  "description": "Practica de pagina web individual, copia de mercado libre",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pabloccandela/PracticaIndividualDH.git"
+    "url": "git+https://github.com/Pabloccandela/Mercado-Liebre.git"
   },
   "author": "Pabloccandela",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pabloccandela/PracticaIndividualDH/issues"
+    "url": "https://github.com/Pabloccandela/Mercado-Liebre/issues"
   },
-  "homepage": "https://github.com/Pabloccandela/PracticaIndividualDH#readme",
+  "homepage": "https://github.com/Pabloccandela/Mercado-Liebre#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
