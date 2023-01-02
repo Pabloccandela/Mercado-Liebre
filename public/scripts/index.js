@@ -14,3 +14,8 @@ botonMenu.addEventListener("click",() => {
     }
 })
 
+const navsearch = document.querySelector("#navsearch");
+
+navsearch.addEventListener("click",()=>{
+    window.location("/")
+})
