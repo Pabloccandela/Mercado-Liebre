@@ -50,35 +50,31 @@
         
     </header>
     <main class="mainForm">
-        <form action="/registerUser" method="get">
+        <form class="formulario" action="/registerUser" method="get">
             <label class="titleForm">Datos de ingreso</label>
-            <input class="inputbox" type="text" name="username" placeholder="Usuario">
-            <input class="inputbox" type="password" name="password" placeholder="Contraseña">
+            <input class="inputbox" type="text" name="username" placeholder="Usuario" required>
+            <input class="inputbox" type="password" name="password" placeholder="Contraseña" required>
             
 
             <label class="titleForm">Fecha de nacimiento</label>
-            <input  type="date" name="date" id="date">
+            <input  type="date" name="date" id="date" required>
 
 
             <label class="titleForm">Domicilio</label>
-            <input class="inputbox" type="text" name="street" placeholder="Domicilio">
+            <input class="inputbox" type="text" name="street" placeholder="Domicilio" required>
             
             
             <label class="titleForm">Perfil de usuario</label>
-   
-                <input type="radio" name="newslatter" id="radio-1" value="comprador"><label>Comprador</label>
-
-
-                <input type="radio" name="newslatter" id="radio-2" value="vendedor"><label>Vendedor</label>
+            <input type="radio" name="newslatter" id="radio-1" value="comprador" required><label>Comprador</label>
+            <input type="radio" name="newslatter" id="radio-2" value="vendedor" required><label>Vendedor</label>
 
             <label class="titleForm">Intereses</label>
-
             <div class="radiusForm">
-                <div> <input type="checkbox" name="checkbox" value="electo"><label>Electro</label></div>
-                <div><input type="checkbox" name="checkbox" value="moda"><label>Moda</label></div>
-                <div><input type="checkbox" name="checkbox" value="hogar"><label>Hogar</label></div>
-                <div><input type="checkbox" name="checkbox" value="jugueteria"><label>juguetería</label></div>
-                <div><input type="checkbox" name="checkbox" value="vidasana"><label>Vida Sana</label></div>
+                <div> <input type="checkbox" name="checkbox" value="electo" ><label>Electro</label></div>
+                <div><input type="checkbox" name="checkbox" value="moda" ><label>Moda</label></div>
+                <div><input type="checkbox" name="checkbox" value="hogar" ><label>Hogar</label></div>
+                <div><input type="checkbox" name="checkbox" value="jugueteria" ><label>juguetería</label></div>
+                <div><input type="checkbox" name="checkbox" value="vidasana" ><label>Vida Sana</label></div>
             </div>
             <input class="buttonForm" type="submit" value="Register" id="submit">
         </form>

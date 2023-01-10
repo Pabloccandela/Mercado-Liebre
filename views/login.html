@@ -20,7 +20,7 @@
             <img class="w-50"src="/img/logo-mercado-liebre.svg" alt="Logo svg">
         </div>
 
-        <form class="p-1 busqueda">
+        <form class="busqueda">
             <input
               type="text"
               placeholder="Buscá productos por nombre, marcas o palabras clave..."
@@ -50,10 +50,10 @@
         
     </header>
     <main class="mainForm">
-        <form action="/registerUser" method="get">
+        <form class="formulario" action="/registerUser" method="get">
             <label class="titleForm">Iniciar Sesion</label>
-            <input class="inputbox" type="text" name="username" placeholder="Usuario">
-            <input class="inputbox" type="password" name="password" placeholder="Contraseña">
+            <input class="inputbox" type="text" name="username" placeholder="Usuario" required>
+            <input class="inputbox" type="password" name="password" placeholder="Contraseña" required>
             <input class="buttonForm" type="submit" value="Register" id="submit">
         </form>
     </main>
